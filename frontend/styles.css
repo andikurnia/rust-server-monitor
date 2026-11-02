@@ -1,0 +1,17 @@
+:root { color-scheme: dark; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #0b1020; color: #e6e9f2; }
+.wrap { max-width: 960px; margin: 0 auto; padding: 24px; }
+h1 { margin: 0 0 16px; }
+.card { background: #141a33; border: 1px solid #263056; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px; border-bottom: 1px solid #263056; text-align: left; }
+.badge { padding: 2px 8px; border-radius: 999px; font-size: 12px; }
+.online { background: #1f6f43; }
+.offline { background: #7f2b2b; }
+.unknown { background: #5a5a5a; }
+.degraded { background: #7f5a1f; }
+button { background: #2b5cff; color: white; border: 0; padding: 8px 12px; border-radius: 8px; cursor: pointer; }
+button.danger { background: #a33; }
+input { background: #0f1428; color: #e6e9f2; border: 1px solid #263056; padding: 8px; border-radius: 8px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.muted { color: #9aa3c2; font-size: 12px; }
